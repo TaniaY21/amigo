@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import QuoteItem from '../components/Quotes/QuoteItem';
 
-function AllMeetupsPage() {
+function QuotePage() {
   const [loadedQuote, setLoadedQuote] = useState();
   const [isLoading, setIsLoading] = useState(true);
 
@@ -56,4 +56,4 @@ function AllMeetupsPage() {
   }
 }
 
-export default AllMeetupsPage;
+export default QuotePage;

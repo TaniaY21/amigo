@@ -1,7 +1,7 @@
 import Card from '../ui/Card';
 import classes from './QuoteItem.module.css';
 
-function MeetupItem(props) {
+function QuoteItem(props) {
   return (
     <div className={classes.item}>
       <Card>
@@ -17,4 +17,4 @@ function MeetupItem(props) {
   );
 }
 
-export default MeetupItem;
+export default QuoteItem;

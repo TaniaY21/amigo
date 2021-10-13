@@ -22,7 +22,7 @@ function NewQuotePage() {
 
   return (
     <section>
-      <h1>Add New Meetup</h1>
+      <h1>Add New Quote</h1>
       <NewQuoteForm onAddQuote={addQuoteHandler} />
     </section>
   );
