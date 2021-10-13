@@ -1,0 +1,41 @@
+.item {
+  margin: 1rem 0;
+}
+
+.content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  color: #2c292b;
+  font-style: italic;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #2c292b;
+  font-style: italic;
+}
+
+.actions {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color:  #cc2062;
+  font-weight: bold;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #fcf5b8;
+;
+}
